@@ -1,0 +1,36 @@
+@font-face {
+  src: url("../Familjen_Grotesk/FamiljenGrotesk-Regular.ttf");
+  font-family: Familjen Grotesk;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  src: url("../Familjen_Grotesk/FamiljenGrotesk-Italic.ttf");
+  font-family: Familjen Grotesk;
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  src: url("../Familjen_Grotesk/FamiljenGrotesk-SemiBold.ttf");
+  font-family: Familjen Grotesk;
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  src: url("../Familjen_Grotesk/FamiljenGrotesk-SemiBoldItalic.ttf");
+  font-family: Familjen Grotesk;
+  font-style: italic;
+  font-weight: 600;
+}
+@font-face {
+  src: url("../Familjen_Grotesk/FamiljenGrotesk-Bold.ttf");
+  font-family: Familjen Grotesk;
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  src: url("../Familjen_Grotesk/FamiljenGrotesk-BoldItalic.ttf");
+  font-family: Familjen Grotesk;
+  font-style: italic;
+  font-weight: 700;
+}

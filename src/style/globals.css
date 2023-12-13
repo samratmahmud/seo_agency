@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("../fonts/Familjen_Grotesk/style.css");
+@import url("../fonts/Inter/style.css");
+
+body {
+  @apply font-inter;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.line-movement {
+  animation-name: movement;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+/* https://www.w3schools.com/css/css3_animations.asp */
+@keyframes movement {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
