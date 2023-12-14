@@ -8,18 +8,17 @@ function Header() {
       <hr className="border border-black relative -z-40" />
       <div className="container">
         <div
-          className=""
+          className="max-w-[1440px]"
           style={{
             marginRight: `calc((-100vw + 100% ) / 2)`,
-            maxWidth: `1610px`,
           }}
         >
-          <div className=" flex items-center gap-10">
+          <div className="flex items-center gap-10">
             <div className="w-[54%]">
               <h3 className="text-lg font-semibold mb-5">
                 #1 SEO agency for fast-growing companies
               </h3>
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-Familjen font-bold mb-7">
+              <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-6xl 2xl:text-7xl font-Familjen font-bold mb-7">
                 Provides the best ranking experience
               </h1>
               <p className="text-lg mb-12">
@@ -54,7 +53,7 @@ function Header() {
               </div>
             </div>
             <div className="w-[46%]">
-              <div className="-mr-[30%]">
+              <div className="-mr-[30%">
                 <img
                   className="border-l-[3px] border-b-[3px] border-black rounded-bl-[500px] max-w-[758px] max-h-[922px]"
                   src="/images/hero-thumb.png"

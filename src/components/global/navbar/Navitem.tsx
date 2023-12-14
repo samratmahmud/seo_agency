@@ -41,7 +41,7 @@ function Navitem(props: NavitemProps) {
       >
         {list && (
           <div className="shadow-sm">
-            <div className="w-4 h-4 bg-gray-200 translate-x-8 translate-y-2 rotate-45" />
+            <div className="w-4 h-4 bg-white translate-x-8 -translate-y-2 rotate-45" />
             <div className="bg-white relative z-40 rounded-md flex flex-col py-2">
               {list.map(({title, path}, index) => (
                 <Link
