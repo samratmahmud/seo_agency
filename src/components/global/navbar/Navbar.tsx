@@ -65,7 +65,7 @@ function Navbar() {
             </div>
           </div>
           <div className="flex items-center gap-10">
-            <Link href="" className="hidden sm:inline">
+            <Link href="" className="hidden sm:inline py-1.5">
               <Buttons name1="Talk to an expert" name2="Talk to an expert" />
             </Link>
             <span onClick={toggle} className="lg:hidden">
@@ -73,7 +73,6 @@ function Navbar() {
             </span>
           </div>
         </div>
-        <hr className="border border-black relative -z-40" />
         <div className="lg:hidden">
           <Drawer
             onClose={toggle}
