@@ -24,22 +24,22 @@ html {
   scroll-behavior: smooth;
 }
 
-.line-movement {
+.movement {
   animation-name: movement;
   animation-duration: 6s;
-  animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 /* https://www.w3schools.com/css/css3_animations.asp */
 @keyframes movement {
   0% {
-    transform: translateX(0px);
+    transform: translatey(0px);
   }
   50% {
-    transform: translateX(-50px);
+    transform: translatey(50px);
   }
   100% {
-    transform: translateX(0px);
+    transform: translatey(0px);
   }
 }

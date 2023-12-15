@@ -52,8 +52,21 @@ function Header() {
                 </span>
               </div>
             </div>
-            <div className="w-[46%]">
-              <div className="-mr-[30%">
+            <div className="w-[46%] relative z-0">
+              <span className="absolute top-[60%] -z-10 animate__animated animate__fadeInRight">
+                <img
+                  className="-translate-x-24 max-w-[212px]"
+                  src="/images/star-shape.png"
+                  alt=""
+                />
+              </span>
+              <span className="absolute top-[54%] left-1/2">
+                <img src="/images/shape-ayna.png" alt="" />
+              </span>
+              <span className="absolute top-[66%] left-3/4 movement">
+                <img src="/images/shape-monitor.png" alt="" />
+              </span>
+              <div className="">
                 <img
                   className="border-l-[3px] border-b-[3px] border-black rounded-bl-[500px] max-w-[758px] max-h-[922px]"
                   src="/images/hero-thumb.png"
