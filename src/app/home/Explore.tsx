@@ -32,7 +32,7 @@ function Explore() {
             <div className="flex">
               <Buttons
                 classNames="h-[60px]"
-                className="py-1.5 px-10"
+                className="py-1.5 px-8"
                 name1="Explore more"
                 name2="Explore more"
               />

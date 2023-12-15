@@ -12,7 +12,7 @@ const config: Config = {
       colors: {
         praimary: "#FFE757",
         gray: {
-          "200": "#FDFDE1",
+          "200": "#FEFCFB",
           "300": "#e6e6e6",
           "400": "#ccc",
           "500": "#333",
@@ -23,6 +23,7 @@ const config: Config = {
         blue: {"400": "#8d7dff"},
         fuchsia: {"300": "#ff94ff"},
         yellow: {"300": "#ffe757"},
+        accent: {"400": "#BFF746"},
       },
     },
     fontSize: {
@@ -40,6 +41,7 @@ const config: Config = {
       "7xl": ["110px", {lineHeight: "1em"}],
       "8xl": ["124px", {lineHeight: "1em"}],
       "9xl": ["84px", {lineHeight: "1em", letterSpacing: "-1px"}],
+      "10xl": ["35px", {lineHeight: "1.4em"}],
     },
     boxShadow: {
       sm: "-2px 2px 70px -25px rgb(0 0 0 / 30%)",

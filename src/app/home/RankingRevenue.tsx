@@ -37,7 +37,7 @@ function RankingRevenue() {
               ))}
             </div>
           </div>
-          <div className="relative max-w-[516px]">
+          <div data-aos="fade-left" className="relative max-w-[516px]">
             <img src="/images/thumb2.png" alt="" />
             <div className="absolute bottom-0 -right-[15%]">
               <img src="/images/shape1.png" alt="" />
