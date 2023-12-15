@@ -5,17 +5,17 @@ function Explore() {
   return (
     <section>
       <div className="container my-32">
-        <div className="flex gap-16 justify-between">
-          <div className="relative w-[50%]">
-            <img
-              className="absolute bottom-0 -translate-x-1/2"
-              src="/images/shape2.png"
-              alt=""
-            />
-            <img src="/images/thumb1.png" alt="" />
+        <div className="flex gap-20 justify-between">
+          <div className="w-[42%]">
+            <div data-aos="fade-right" className="relative">
+              <img src="/images/thumb1.png" alt="" />
+              <div className="absolute bottom-0 -left-[26%]">
+                <img src="/images/shape2.png" alt="" />
+              </div>
+            </div>
           </div>
           <div className="w-[50%]">
-            <h2 className="text-9xl font-bold mb-6">
+            <h2 className="text-9xl font-bold mb-6 font-Familjen">
               We strive for the best SEO quality
             </h2>
             <div className="text-lg mb-11">
