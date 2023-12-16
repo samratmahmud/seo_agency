@@ -40,6 +40,8 @@ function Employe() {
         <div className="flex gap-6">
           {data.map(({name, position, thumbnail}, index) => (
             <div
+              data-aos="fade-up"
+              data-aos-duration={`${index * 1000}`}
               key={index}
               className="border border-black px-5 pt-5 rounded-xl"
             >

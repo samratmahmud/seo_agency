@@ -44,6 +44,12 @@ const navLinks = [
   },
   {title: "Contact Us", path: "/contact_us"},
 ];
+const socialLinks = [
+  {icon: "/images/icons8-twitter-30.png", path: "https://twitter.com/"},
+  {icon: "/images/icons8-fb-30.png", path: "https://www.facebook.com/"},
+  {icon: "/images/icons8-instagram-30.png", path: "https://www.instagram.com/"},
+  {icon: "/images/icons8-linkedin-32.png", path: "https://bd.linkedin.com/"},
+];
 
 function Navbar() {
   const [open, setOpen] = React.useState(false);
@@ -65,12 +71,26 @@ function Navbar() {
             </div>
           </div>
           <div className="flex items-center gap-10">
-            <Link href="" className="hidden sm:inline py-1.5">
-              <Buttons name1="Talk to an expert" name2="Talk to an expert" />
-            </Link>
-            <span onClick={toggle} className="lg:hidden">
-              <img src="/images/icons8-menu-30.png" alt="" />
-            </span>
+            <div className="flex gap-2">
+              {socialLinks.map(({icon, path}, index) => (
+                <Link
+                  href={path}
+                  target="_blank"
+                  key={index}
+                  className="hover:bg-yellow-300 duration-300 p-1.5 w-9 h-9 rounded-full flex items-center justify-center border border-black hover:border-yellow-300"
+                >
+                  <img src={icon} alt="" />
+                </Link>
+              ))}
+            </div>
+            <div className="flex items-center gap-10">
+              <Link href="" className="hidden sm:inline py-1.5">
+                <Buttons name1="Talk to an expert" name2="Talk to an expert" />
+              </Link>
+              <span onClick={toggle} className="lg:hidden">
+                <img src="/images/icons8-menu-30.png" alt="" />
+              </span>
+            </div>
           </div>
         </div>
         <div className="lg:hidden">

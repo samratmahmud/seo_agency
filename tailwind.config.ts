@@ -42,6 +42,8 @@ const config: Config = {
       "8xl": ["124px", {lineHeight: "1em"}],
       "9xl": ["84px", {lineHeight: "1em", letterSpacing: "-1px"}],
       "10xl": ["35px", {lineHeight: "1.4em"}],
+      "11xl": ["30px", {lineHeight: "1.4em"}],
+      "12xl": ["20px", {lineHeight: "30px"}],
     },
     boxShadow: {
       sm: "-2px 2px 70px -25px rgb(0 0 0 / 30%)",

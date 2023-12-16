@@ -13,6 +13,8 @@ import StepsPlan from "./home/StepsPlan";
 import BrandingSlider from "./home/BrandingSlider";
 import Employe from "./home/Employe";
 import FrequnlyQuestion from "./home/FrequnlyQuestion";
+import Contact from "./home/Contact";
+import Footer from "./home/Footer";
 
 export default function Home() {
   useEffect(() => {
@@ -33,6 +35,8 @@ export default function Home() {
       <BrandingSlider />
       <Employe />
       <FrequnlyQuestion />
+      <Contact />
+      <Footer />
     </main>
   );
 }

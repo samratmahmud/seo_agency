@@ -15,7 +15,7 @@ function Header() {
         >
           <div className="flex items-center gap-10">
             <div className="w-[54%]">
-              <h3 className="text-lg font-semibold mb-5">
+              <h3 className="text-xl font-semibold mb-5">
                 #1 SEO agency for fast-growing companies
               </h3>
               <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-6xl 2xl:text-7xl font-Familjen font-bold mb-7">

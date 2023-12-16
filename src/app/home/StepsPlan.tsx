@@ -1,4 +1,4 @@
-import StepItems from "@/components/common/StepItems";
+import StepItems from "@/components/template/StepItems";
 import React from "react";
 
 const stepPAge = [
@@ -25,7 +25,7 @@ function StepsPlan() {
     <section>
       <div className="container my-32">
         <div className="flex gap-20">
-          <div className="relative">
+          <div data-aos="fade-up" className="relative">
             <img
               className="border border-black rounded-t-full"
               src="images/thumb3.png"

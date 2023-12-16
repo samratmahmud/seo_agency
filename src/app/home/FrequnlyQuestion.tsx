@@ -1,4 +1,4 @@
-import QuestionProps from "@/components/common/QuestionProps";
+import QuestionProps from "@/components/template/QuestionProps";
 import React from "react";
 
 const questionAnswer = [
