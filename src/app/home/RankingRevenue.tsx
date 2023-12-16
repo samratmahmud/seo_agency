@@ -18,13 +18,13 @@ const revenueRannking = [
 function RankingRevenue() {
   return (
     <section>
-      <div className="container my-32">
-        <div className="flex gap-24 items-center justify-between">
+      <div className="container lg:my-32 md:my-20 my-20">
+        <div className="flex lg:flex-row flex-col-reverse lg:gap-24 gap-10 items-center justify-between">
           <div>
-            <h2 className="text-9xl font-Familjen font-bold mb-6">
+            <h2 className="2xl:text-9xl xl:text-3xl md:text-13xl sm:text-14xl text-15xl font-bold md:mb-6 mb-4 font-Familjen text-center lg:text-left">
               Increase revenue with custom SEO
             </h2>
-            <p className="text-lg -tracking-wide mb-12">
+            <p className="md:text-lg text-base text-center lg:text-left lg:-tracking-wide mb-12">
               Our SEO agency will help you reach new audiences, increase your
               website performance, and accelerate your reputation.
             </p>
@@ -32,13 +32,13 @@ function RankingRevenue() {
               {revenueRannking.map(({icon, title}, index) => (
                 <div key={index} className="flex gap-2.5">
                   <img src={icon} alt="" />
-                  <p className="text-lg font-semibold">{title}</p>
+                  <p className="md:text-lg text-base font-semibold">{title}</p>
                 </div>
               ))}
             </div>
           </div>
-          <div data-aos="fade-left" className="relative max-w-[516px]">
-            <img src="/images/thumb2.png" alt="" />
+          <div data-aos="fade-left" className="relative lg:max-w-[516px]">
+            <img className="" src="/images/thumb2.png" alt="" />
             <div className="absolute bottom-0 -right-[15%]">
               <img src="/images/shape1.png" alt="" />
             </div>

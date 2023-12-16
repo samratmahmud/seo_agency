@@ -34,24 +34,24 @@ const serviceCards = [
 
 function Services() {
   return (
-    <section className="bg-black py-32">
+    <section className="bg-black lg:py-32 md:py-24 py-20">
       <div className="container">
-        <h2 className="text-9xl text-gray-200 font-bold font-Familjen text-center max-w-[800px] m-auto mb-20">
+        <h2 className="2xl:text-9xl xl:text-3xl md:text-13xl sm:text-14xl text-15xl text-gray-200 font-bold font-Familjen text-center max-w-[800px] m-auto mb-20">
           Our professional SEO services for you
         </h2>
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid lg:grid-cols-2 gap-6">
           {serviceCards.map(({logo, title, contain, className}, index) => (
             <div
               data-aos="fade-up"
               data-aos-duration={`${index * 400}`}
               key={index}
-              className={`${className} flex gap-6 p-10 rounded-[20px] hover:scale-95 duration-500`}
+              className={`${className} flex gap-6 md:p-10 p-[30px] rounded-[20px] hover:scale-95 duration-500`}
             >
               <div className="flex-shrink-0">
                 <img src={logo} alt="" />
               </div>
               <div>
-                <h3 className="text-10xl font-bold font-Familjen mb-5">
+                <h3 className="lg:text-10xl text-11xl font-bold font-Familjen mb-5">
                   {title}
                 </h3>
                 <p className="text-base mb-6">{contain}</p>

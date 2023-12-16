@@ -71,24 +71,30 @@ function Navbar() {
             </div>
           </div>
           <div className="flex items-center gap-10">
-            <div className="flex gap-2">
-              {socialLinks.map(({icon, path}, index) => (
-                <Link
-                  href={path}
-                  target="_blank"
-                  key={index}
-                  className="hover:bg-yellow-300 duration-300 p-1.5 w-9 h-9 rounded-full flex items-center justify-center border border-black hover:border-yellow-300"
-                >
-                  <img src={icon} alt="" />
-                </Link>
-              ))}
+            <div className="hidden xl:block">
+              <div className="flex gap-2">
+                {socialLinks.map(({icon, path}, index) => (
+                  <Link
+                    href={path}
+                    target="_blank"
+                    key={index}
+                    className="hover:bg-yellow-300 duration-300 p-1.5 w-9 h-9 rounded-full flex items-center justify-center border border-black hover:border-yellow-300"
+                  >
+                    <img src={icon} alt="" />
+                  </Link>
+                ))}
+              </div>
             </div>
             <div className="flex items-center gap-10">
               <Link href="" className="hidden sm:inline py-1.5">
                 <Buttons name1="Talk to an expert" name2="Talk to an expert" />
               </Link>
-              <span onClick={toggle} className="lg:hidden">
-                <img src="/images/icons8-menu-30.png" alt="" />
+              <span onClick={toggle} className="lg:hidden cursor-pointer">
+                <img
+                  className="w-8 h-8"
+                  src="/images/icons8-menu-50.png"
+                  alt=""
+                />
               </span>
             </div>
           </div>
@@ -100,12 +106,12 @@ function Navbar() {
             direction="left"
             style={{width: 320}}
           >
-            <div className="flex flex-col justify-between h-full pb-4 px-4">
+            <div className="flex flex-col justify-between h-full pb-7 px-4">
               <div>
                 <div
                   role="button"
                   onClick={toggle}
-                  className="text-base leading-[50px] flex justify-end"
+                  className="text-2xl leading-[50px] flex justify-end"
                 >
                   ×
                 </div>
@@ -121,7 +127,7 @@ function Navbar() {
                   ))}
                 </div>
               </div>
-              <div className="text-5xl text-center">
+              <div className="text-xs text-center">
                 © Copyright 2023, All Rights Reserved by Mthemeus
               </div>
             </div>

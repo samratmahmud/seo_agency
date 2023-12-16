@@ -40,12 +40,12 @@ function SuccesResult() {
         <h2 className="text-lg font-semibold text-white text-center mb-10">
           Our results speak for our ability to succeed
         </h2>
-        <div className="flex flex-wrap md:justify-between justify-center gap-5">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-2 md:justify-between justify-center gap-5">
           {SuccesResultProps.map(
             ({number, description, icon, icon2, className}, index) => (
               <div key={index} className="text-center">
                 <div
-                  className={`text-5xl uppercase flex font-bold font-Familjen mb-1.5 ${className}`}
+                  className={`xl:text-5xl md:text-13xl text-2xl uppercase flex justify-center font-bold font-Familjen mb-1.5 ${className}`}
                 >
                   <span className="-mt-5 mr-3">{icon}</span>
                   <span>{number}</span>

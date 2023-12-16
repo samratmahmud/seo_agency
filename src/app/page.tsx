@@ -32,11 +32,11 @@ export default function Home() {
       <RankingRevenue />
       <Services />
       <StepsPlan />
-      <BrandingSlider />
-      <Employe />
-      <FrequnlyQuestion />
-      <Contact />
-      <Footer />
+      {/* <BrandingSlider /> */}
+      {/* <Employe /> */}
+      {/* <FrequnlyQuestion /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </main>
   );
 }
