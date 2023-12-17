@@ -33,8 +33,8 @@ function FrequnlyQuestion() {
   const [tab, setTab] = React.useState(0);
   return (
     <section>
-      <div className="container my-32">
-        <h2 className="text-9xl font-Familjen font-bold mb-20 max-w-[800px] m-auto">
+      <div className="container lg:my-32 md:my-24 my-20">
+        <h2 className="2xl:text-9xl xl:text-3xl md:text-13xl sm:text-14xl text-15xl -tracking-[1px] font-Familjen font-bold lg:mb-20 md:mb-[60px] mb-10 2xl:max-w-[800px] max-w-[600px] text-center m-auto">
           Increase revenue with custom SEO
         </h2>
         <div>
@@ -47,7 +47,7 @@ function FrequnlyQuestion() {
                 isActive={tab === index}
                 handelClick={() => setTab(index)}
               />
-              <hr className="border border-black my-[30px] group-last:hidden" />
+              <hr className="border border-black lg:my-[30px] my-5 group-last:hidden" />
             </div>
           ))}
         </div>

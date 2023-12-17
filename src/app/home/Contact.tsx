@@ -20,20 +20,20 @@ const contactData = [
 function Contact() {
   return (
     <section className="bg-black">
-      <div className="container py-32 flex gap-[76px]">
+      <div className="container lg:py-32 md:py-24 py-20 flex lg:flex-row flex-col lg:gap-[76px] gap-10">
         <div>
-          <h2 className="text-9xl font-bold font-Familjen text-gray-200 mb-6">
+          <h2 className="2xl:text-9xl xl:text-3xl md:text-13xl sm:text-14xl text-15xl font-bold font-Familjen text-gray-200 mb-6 text-center lg:text-left">
             Want to boost your business with our SEO expertise?
           </h2>
-          <p className="text-lg text-gray-200 mb-11">
+          <p className="md:text-lg text-base text-gray-200 mb-11 text-center lg:text-left">
             Experienced SEO experts proven strategies & innovative techniques to
             increase your website's visibility, drive organic traffic, and
             improve your digital performance and grow your online reach.
           </p>
-          <div className="text-11xl font-Familjen font-bold mb-7 text-gray-200">
+          <div className="text-11xl font-Familjen font-bold mb-7 text-gray-200 text-center lg:text-left">
             Contact us directly:
           </div>
-          <div className="flex flex-wrap gap-8">
+          <div className="flex flex-wrap justify-center lg:justify-start gap-8">
             {contactData.map(({icon, title}, index) => (
               <label
                 role="button"
@@ -50,7 +50,7 @@ function Contact() {
             ))}
           </div>
         </div>
-        <div className="bg-gray-200 p-10 rounded-xl max-w-[516px] w-full">
+        <div className="bg-gray-200 p-10 rounded-xl lg:max-w-[516px] w-full">
           <h3 className="text-11xl font-bold font-Familjen mb-2.5">
             Send us a message
           </h3>

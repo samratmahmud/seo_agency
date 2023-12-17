@@ -34,8 +34,8 @@ export default function Home() {
       <StepsPlan />
       <BrandingSlider />
       <Employe />
-      {/* <FrequnlyQuestion /> */}
-      {/* <Contact /> */}
+      <FrequnlyQuestion />
+      <Contact />
       {/* <Footer /> */}
     </main>
   );

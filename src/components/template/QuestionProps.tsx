@@ -18,18 +18,24 @@ function QuestionProps(props: questionAnswer) {
     <div>
       <div
         onClick={handelClick}
-        className="flex gap-3 justify-between cursor-pointer"
+        className="flex gap-1 items-center justify-between cursor-pointer"
       >
-        <h2 className="text-10xl font-bold font-Familjen">{question}</h2>
-        <button>
-          <img
-            className={`${show ? "-rotate-180  duration-500" : "duration-500"}`}
-            src="/images/icons8-arrow-up-24.png"
-            alt=""
-          />
-        </button>
+        <h2 className="lg:text-10xl md:text-11xl text-xl font-bold font-Familjen">
+          {question}
+        </h2>
+        <div className="flex-shrink-0">
+          <button>
+            <img
+              className={`${
+                show ? "-rotate-180  duration-500" : "duration-500"
+              }`}
+              src="/images/icons8-arrow-up-24.png"
+              alt=""
+            />
+          </button>
+        </div>
       </div>
-      {show && <p className="text-lg pt-4 mr-[6%]">{answer}</p>}
+      {show && <p className="lg:text-lg text-base pt-4 mr-[6%]">{answer}</p>}
     </div>
   );
 }

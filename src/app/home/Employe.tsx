@@ -24,8 +24,8 @@ function Employe() {
   return (
     <section>
       <div className="container lg:my-32 md:my-24 my-20">
-        <div className="flex justify-between items-center mb-20">
-          <h2 className="text-9xl font-bold font-Familjen max-w-[624px]">
+        <div className="flex lg:flex-row flex-col justify-between gap-6 items-center md:mb-20 mb-10">
+          <h2 className="2xl:text-9xl xl:text-3xl md:text-13xl sm:text-14xl text-15xl font-bold font-Familjen xl:max-w-[624px] max-w-[484px] text-center">
             Increase revenue with custom SEO
           </h2>
           <Link href="">
@@ -37,7 +37,7 @@ function Employe() {
             />
           </Link>
         </div>
-        <div className="flex gap-6">
+        <div className="grid xl:grid-cols-3 md:grid-cols-2 gap-6">
           {data.map(({name, position, thumbnail}, index) => (
             <div
               data-aos="fade-up"
