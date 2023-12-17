@@ -47,6 +47,7 @@ const config: Config = {
       "13xl": ["60px", {lineHeight: "1em"}],
       "14xl": ["40px", {lineHeight: "1em"}],
       "15xl": ["36px", {lineHeight: "1em"}],
+      "16xl": ["28px", {lineHeight: "1.4em"}],
     },
     boxShadow: {
       sm: "-2px 2px 70px -25px rgb(0 0 0 / 30%)",
@@ -70,7 +71,6 @@ const config: Config = {
       lg: "992px",
       xl: "1190px",
       "2xl": "1400px",
-      "3xl": "1670px",
     },
   },
   plugins: [],

@@ -27,13 +27,13 @@ export default function Home() {
     <main>
       <Navbar />
       <Header />
-      <SuccesResult />
+      {/* <SuccesResult />
       <Explore />
       <RankingRevenue />
-      <Services />
+      <Services /> */}
       <StepsPlan />
-      {/* <BrandingSlider /> */}
-      {/* <Employe /> */}
+      <BrandingSlider />
+      <Employe />
       {/* <FrequnlyQuestion /> */}
       {/* <Contact /> */}
       {/* <Footer /> */}

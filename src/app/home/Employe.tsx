@@ -23,7 +23,7 @@ const data = [
 function Employe() {
   return (
     <section>
-      <div className="container my-32">
+      <div className="container lg:my-32 md:my-24 my-20">
         <div className="flex justify-between items-center mb-20">
           <h2 className="text-9xl font-bold font-Familjen max-w-[624px]">
             Increase revenue with custom SEO

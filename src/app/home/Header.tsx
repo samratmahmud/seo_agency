@@ -7,7 +7,7 @@ function Header() {
     <section className="md:pt-[89px] pt-[61px]">
       <hr className="border border-black relative -z-40" />
       <div className="container pt-20 lg:pt-0">
-        <div className="lg:max-w-[1440px] lg:mr-[calc((-100vw_+_100%)_/_2)]">
+        <div className="lg:max-w-[1640px] lg:mr-[calc((-100vw_+_100%)_/_2)]">
           <div className="flex lg:flex-row flex-col items-center gap-10">
             <div className="lg:w-[54%]">
               <h3 className="lg:text-xl text-12xl font-semibold lg:mb-5 mb-2.5 text-center lg:text-left">
