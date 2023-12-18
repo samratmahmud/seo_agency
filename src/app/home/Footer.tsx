@@ -28,15 +28,15 @@ function Footer() {
   return (
     <section>
       <div className="container">
-        <div className="my-[100px]">
+        <div className="md:my-[100px] my-20">
           <img src="/images/logo-large.svg" alt="" />
         </div>
         <hr className="border border-gray-300" />
-        <div className="py-9 flex items-center gap-3 justify-between">
-          <div className="text-base font-semibold">
+        <div className="lg:py-9 py-5 px-5 lg:px-0 flex xl:flex-row flex-col items-center gap-5 justify-between">
+          <div className="text-base font-semibold text-center">
             ©Copyright 2023, All Rights Reserved by Mthemeus
           </div>
-          <div className="flex gap-10">
+          <div className="flex flex-wrap justify-center lg:gap-x-10 gap-x-5">
             {footerLinks.map(({name, path}, index) => (
               <Link key={index} href={path} className="text-base font-semibold">
                 {name}

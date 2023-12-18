@@ -4,12 +4,12 @@ import React from "react";
 function Explore() {
   return (
     <section>
-      <div className="container lg:my-32 md:my-24 my-20">
+      <div className="container lg:my-32 md:my-24 my-20 overflow-hidden md:overflow-visible">
         <div className="flex lg:flex-row flex-col lg:gap-20 gap-10 justify-between">
           <div className="lg:w-[42%]">
             <div data-aos="fade-right" className="relative">
               <img src="/images/thumb1.png" alt="" />
-              <div className="absolute bottom-0 -left-[26%]">
+              <div className="absolute bottom-0 -left-[26%] hidden md:block">
                 <img src="/images/shape2.png" alt="" />
               </div>
             </div>

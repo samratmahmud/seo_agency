@@ -46,7 +46,7 @@ const config: Config = {
       "12xl": ["20px", {lineHeight: "30px "}],
       "13xl": ["60px", {lineHeight: "1em"}],
       "14xl": ["40px", {lineHeight: "1em"}],
-      "15xl": ["36px", {lineHeight: "1em"}],
+      "15xl": ["36px", {lineHeight: "1em", letterSpacing: "-1px"}],
       "16xl": ["28px", {lineHeight: "1.4em"}],
     },
     boxShadow: {

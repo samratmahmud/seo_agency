@@ -24,15 +24,17 @@ function StepsPlan() {
   return (
     <section>
       <div className="container lg:my-32 md:my-24 my-20">
-        <div className="flex lg:flex-row flex-col justify-between gap-20">
-          <div data-aos="fade-up" className="relative">
-            <img
-              className="border border-black rounded-t-full"
-              src="images/thumb3.png"
-              alt=""
-            />
-            <div className="absolute bottom-0 -left-[25%]">
-              <img src="/images/shape3.png" alt="" />
+        <div className="flex lg:flex-row flex-col justify-between md:gap-20 gap-10">
+          <div>
+            <div data-aos="fade-up" className="relative">
+              <img
+                className="border border-black rounded-t-full"
+                src="images/thumb3.png"
+                alt=""
+              />
+              <div className="absolute bottom-0 -left-[20%] hidden md:block">
+                <img src="/images/shape3.png" alt="" />
+              </div>
             </div>
           </div>
           <div className="max-w-[624px] m-auto lg:mr-0">

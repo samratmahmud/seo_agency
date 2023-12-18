@@ -13,7 +13,7 @@ function Header() {
               <h3 className="lg:text-xl text-12xl font-semibold lg:mb-5 mb-2.5 text-center lg:text-left">
                 #1 SEO agency for fast-growing companies
               </h3>
-              <h1 className="text-2xl md:text-3xl lg:text-4xl 2xl:text-6xl 3xl:text-8xl font-Familjen font-bold mb-7 text-center lg:text-left">
+              <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-6xl 2xl:text-8xl font-Familjen font-bold mb-7 text-center lg:text-left">
                 Provides the best ranking experience
               </h1>
               <p className="lg:text-lg text-base mb-12 text-center lg:text-left">

@@ -18,7 +18,7 @@ function QuestionProps(props: questionAnswer) {
     <div>
       <div
         onClick={handelClick}
-        className="flex gap-1 items-center justify-between cursor-pointer"
+        className="flex gap-1 justify-between cursor-pointer"
       >
         <h2 className="lg:text-10xl md:text-11xl text-xl font-bold font-Familjen">
           {question}
@@ -26,7 +26,7 @@ function QuestionProps(props: questionAnswer) {
         <div className="flex-shrink-0">
           <button>
             <img
-              className={`${
+              className={`pt-2 ${
                 show ? "-rotate-180  duration-500" : "duration-500"
               }`}
               src="/images/icons8-arrow-up-24.png"

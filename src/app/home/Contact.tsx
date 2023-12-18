@@ -20,12 +20,12 @@ const contactData = [
 function Contact() {
   return (
     <section className="bg-black">
-      <div className="container lg:py-32 md:py-24 py-20 flex lg:flex-row flex-col lg:gap-[76px] gap-10">
+      <div className="container lg:py-32 md:py-24 py-20 flex lg:flex-row flex-col gap-6">
         <div>
           <h2 className="2xl:text-9xl xl:text-3xl md:text-13xl sm:text-14xl text-15xl font-bold font-Familjen text-gray-200 mb-6 text-center lg:text-left">
             Want to boost your business with our SEO expertise?
           </h2>
-          <p className="md:text-lg text-base text-gray-200 mb-11 text-center lg:text-left">
+          <p className="md:text-lg text-base text-gray-200 mb-11 text-center lg:text-left max-w-[594px]">
             Experienced SEO experts proven strategies & innovative techniques to
             increase your website's visibility, drive organic traffic, and
             improve your digital performance and grow your online reach.
@@ -50,7 +50,7 @@ function Contact() {
             ))}
           </div>
         </div>
-        <div className="bg-gray-200 p-10 rounded-xl lg:max-w-[516px] w-full">
+        <div className="bg-gray-200 md:p-10 p-7 rounded-xl lg:max-w-[516px] w-full">
           <h3 className="text-11xl font-bold font-Familjen mb-2.5">
             Send us a message
           </h3>
